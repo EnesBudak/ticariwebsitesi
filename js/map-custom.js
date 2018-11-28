@@ -220,7 +220,7 @@
             if (selector_map !== undefined) {
                 var map = new google.maps.Map(document.getElementById('google_map'), {
                     zoom: Number(map_zoom),
-                    zoomControl: false,  
+                    zoomControl: true,  
                     disableDoubleClickZoom: true,
                     scrollwheel: scrollwhell,
                     navigationControl: true,
